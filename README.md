@@ -1,10 +1,6 @@
-# SadatWeb Portfolio
+Sayed Rohullah Sadat
+Full-Stack Developer | Software Engineer | Computer Science Student
+About Me
+I am a Computer Science student at Herat University, passionate about software engineering and full-stack development.
 
-```
-npm install
-npm run dev      # development
-npm run build    # type-check + production build
-```
-
-Edit content in `src/data/`. Deploy the `dist/` folder to Vercel or Netlify.
-# SadatWeb-Portfolio
+I build modern, scalable, and maintainable applications, combining intuitive frontend experiences with reliable backend architectures. My interests include system design, database management, API development, and solving real-world problems through technology.

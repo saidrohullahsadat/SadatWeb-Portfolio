@@ -1,0 +1,162 @@
+{
+  "planHash": "d3f6a300fb32da1db7e2debaf6496c5e09ba015fef0d8a58f3cb1114cddf4c21",
+  "phase": "standalone",
+  "recordedAtUtc": "2026-11-16T12:23:22.3034274Z",
+  "retryCount": 0,
+  "resetBaseline": false,
+  "complete": true,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 4919,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "production-build",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\n\u003E sadatweb-portfolio@1.0.0 build\n\u003E tsc \u0026\u0026 vite build\n\nvite v6.4.6 building for production...\ntransforming...\n\u2713 2109 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   1.14 kB \u2502 gzip:  0.66 kB\ndist/assets/index-CZanorKn.css   20.48 kB \u2502 gzip:  5.70 kB\ndist/assets/index-Crm4Hsgq.js   172.89 kB \u2502 gzip: 55.17 kB\n\u2713 built in 3.18s\n",
+        "durationMs": 7526
+      },
+      {
+        "name": "tests-pass",
+        "kind": "process",
+        "verificationMethod": "test-results",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\n\u003E sadatweb-portfolio@1.0.0 test\n\u003E vitest run --environment jsdom\n\n\n RUN  v4.1.12 /home/said-rohullah-sadat/AAMyProjects/sadatweb-react\n\n\n Test Files  1 passed (1)\n      Tests  9 passed (9)\n   Start at  16:53:18\n   Duration  2.84s (transform 290ms, setup 0ms, import 709ms, tests 892ms, environment 1.02s)\n\n",
+        "durationMs": 3742,
+        "testResults": {
+          "testFramework": "vitest",
+          "runnerDetectedFrom": "package_json",
+          "testsTotal": 9,
+          "testsPassed": 9,
+          "testsFailed": 0,
+          "testsSkipped": 0,
+          "parseFailed": false
+        }
+      },
+      {
+        "name": "home-route-serves",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!DOCTYPE html\u003E\n\u003Chtml lang=\u0022en\u0022\u003E\n\u003Chead\u003E\n  \u003Cscript type=\u0022module\u0022\u003Eimport { injectIntoGlobalHook } from \u0022/@react-refresh\u0022;\ninjectIntoGlobalHook(window);\nwindow.$RefreshReg$ = () =\u003E {};\nwindow.$RefreshSig$ = () =\u003E (type) =\u003E type;\u003C/script\u003E\n\n  \u003Cscript type=\u0022module\u0022 src=\u0022/@vite/client\u0022\u003E\u003C/script\u003E\n\n\u003Cmeta charset=\u0022utf-8\u0022\u003E\n\u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1, viewport-fit=cover\u0022\u003E\n\u003Ctitle\u003ESayed Rohullah Sadat | Full-Stack Developer\u003C/title\u003E\n\u003Cmeta name=\u0022description\u0022 content=\u0022Explore the portfolio of Sayed Rohullah Sadat, a full-stack developer focused on React, TypeScript, C#, ASP.NET Core, Node.js, and modern software development.\u0022\u003E\n\u003Cmeta property=\u0022og:title\u0022 content=\u0022Sayed Rohullah Sadat | Full-Stack Developer\u0022\u003E\n\u003Cmeta property=\u0022og:type\u0022 content=\u0022website\u0022\u003E\n\u003Clink rel=\u0022icon\u0022 href=\u0022data:image/svg\u002Bxml,%3Csvg xmlns=\u0027http://www.w3.org/2000/svg\u0027 viewBox=\u00270 0 100 100\u0027%3E%3Ctext y=\u0027.9em\u0027 font-size=\u002790\u0027%3E\uD83D\uDCBB%3C/text%3E%3C/svg%3E\u0022\u003E\n\u003Cscript\u003E\ntry{var t=localStorage.getItem(\u0022sw-theme\u0022);if(!t)t=matchMedia(\u0022(prefers-color-scheme: dark)\u0022).matches?\u0022dark\u0022:\u0022light\u0022;document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme=\u0022light\u0022}\n\u003C/script\u003E\n\u003C/head\u003E\n\u003Cbody\u003E\u003Cdiv id=\u0022root\u0022\u003E\u003C/div\u003E\u003Cscript type=\u0022module\u0022 src=\u0022/src/main.tsx\u0022\u003E\u003C/script\u003E\u003C/body\u003E\n\u003C/html\u003E\n\n--- server output ---\n\n\u003E sadatweb-portfolio@1.0.0 dev\n\u003E vite --host 127.0.0.1 --port 4173 --strictPort\n\n\n  VITE v6.4.6  ready in 497 ms\n\n  \u279C  Local:   http://127.0.0.1:4173/\n",
+        "durationMs": 1185
+      }
+    ],
+    "executions": [
+      {
+        "source": "setup[0]",
+        "resolvedExecutable": "/usr/bin/npm",
+        "args": [
+          "ci"
+        ],
+        "cwd": "/home/said-rohullah-sadat/AAMyProjects/sadatweb-react",
+        "env": {},
+        "prependPath": [],
+        "platform": "linux",
+        "nodeExecutable": "/usr/bin/node",
+        "nodeVersion": "v20.20.2",
+        "packageManager": "npm",
+        "packageManagerExecutable": "/usr/bin/npm",
+        "packageManagerVersion": "10.8.2",
+        "cleanup": {
+          "RootProcessId": 536153,
+          "Completed": true,
+          "ProcessesObserved": 1,
+          "ProcessesTerminated": 0,
+          "Failure": null
+        }
+      },
+      {
+        "source": "production-build",
+        "resolvedExecutable": "/usr/bin/npm",
+        "args": [
+          "run",
+          "build"
+        ],
+        "cwd": "/home/said-rohullah-sadat/AAMyProjects/sadatweb-react",
+        "env": {},
+        "prependPath": [],
+        "platform": "linux",
+        "nodeExecutable": "/usr/bin/node",
+        "nodeVersion": "v20.20.2",
+        "packageManager": "npm",
+        "packageManagerExecutable": "/usr/bin/npm",
+        "packageManagerVersion": "10.8.2",
+        "cleanup": {
+          "RootProcessId": 536316,
+          "Completed": true,
+          "ProcessesObserved": 1,
+          "ProcessesTerminated": 0,
+          "Failure": null
+        }
+      },
+      {
+        "source": "tests-pass",
+        "resolvedExecutable": "/usr/bin/npm",
+        "args": [
+          "test"
+        ],
+        "cwd": "/home/said-rohullah-sadat/AAMyProjects/sadatweb-react",
+        "env": {},
+        "prependPath": [],
+        "platform": "linux",
+        "nodeExecutable": "/usr/bin/node",
+        "nodeVersion": "v20.20.2",
+        "packageManager": "npm",
+        "packageManagerExecutable": "/usr/bin/npm",
+        "packageManagerVersion": "10.8.2",
+        "cleanup": {
+          "RootProcessId": 536571,
+          "Completed": true,
+          "ProcessesObserved": 1,
+          "ProcessesTerminated": 0,
+          "Failure": null
+        }
+      },
+      {
+        "source": "home-route-serves",
+        "resolvedExecutable": "/usr/bin/npm",
+        "args": [
+          "run",
+          "dev",
+          "--",
+          "--host",
+          "127.0.0.1",
+          "--port",
+          "4173",
+          "--strictPort"
+        ],
+        "cwd": "/home/said-rohullah-sadat/AAMyProjects/sadatweb-react",
+        "env": {},
+        "prependPath": [],
+        "platform": "linux",
+        "nodeExecutable": "/usr/bin/node",
+        "nodeVersion": "v20.20.2",
+        "packageManager": "npm",
+        "packageManagerExecutable": "/usr/bin/npm",
+        "packageManagerVersion": "10.8.2",
+        "cleanup": {
+          "RootProcessId": 536723,
+          "Completed": true,
+          "ProcessesObserved": 1,
+          "ProcessesTerminated": 1,
+          "Failure": null
+        }
+      }
+    ]
+  }
+}
