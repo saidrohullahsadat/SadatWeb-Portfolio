@@ -21,10 +21,10 @@ export const process: [string, string][] = [
   ["Deploy & Improve", "Deploy, maintain, and keep improving."],
 ];
 export const socials: [string, string][] = [
-  ["GitHub", "https://github.com/saidrohullahsadat"], ["LinkedIn", "https://www.linkedin.com/in/said-rohollah-sadat/"],
-  ["Fiverr", "https://www.fiverr.com/saidrohullahsadat"], ["Instagram", "https://www.instagram.com/sadatweb/"],
-  ["Facebook", "https://www.facebook.com/sadatweb/"], ["TikTok", "https://www.tiktok.com/@sadatweb"],
-  ["X", "https://x.com/sayedsadat"], ["Bluesky", "https://bsky.app/profile/sayedsadat"],
+  ["GitHub", "https://github.com/saidrohullahsadat"], ["LinkedIn", "https://www.linkedin.com/in/said-rohullah-sadat-05b870334/"],
+  ["Fiverr", "https://www.fiverr.com/said_rohullah/buying?source=avatar_menu_profile"], ["Instagram", "https://www.instagram.com/sadatweb/"],
+  ["Facebook", "https://www.facebook.com/sadatweb/"], ["TikTok", "https://www.tiktok.com/@sadat.web.service"],
+  ["X", "https://x.com/@sayedsadatywst"], ["Bluesky", "https://bsky.app/profile/sayedsadat"],
 ];
 export const aboutFacts: [string, string][] = [
   ["Name", "Sayed Rohullah Sadat"], ["Brand", "SadatWeb"], ["Education", "Computer Science, Herat University"],
